@@ -29,6 +29,7 @@ jobs:
             
           fetch_all_tags: true
           release_branches: main
+          pre_release_branches: dev
           default_bump: patch
           tag_prefix: v
 
