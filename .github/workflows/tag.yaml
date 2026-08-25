@@ -2,8 +2,9 @@ name: Test Auto Tag
 
 on:
   push:
-    - main
-    - dev
+    branches:
+      - main
+      - dev
       
 
 permissions:
